@@ -14,14 +14,14 @@ class Automata {
 private:
     int cash;
     string menu[5] = {
-        "Americano",
-        "Cappuccino",
+        "Coffee",
+        "Coffee with milk",
         "Black tea",
-        "Green tea",
-        "Hot chocolate"
+        "Coca Cola",
+        "Mirinda"
     };
     int prices[5] = {
-        120, 150, 80, 100, 100
+        120, 150, 80, 150, 120
     };
     states state;
     int selection;
