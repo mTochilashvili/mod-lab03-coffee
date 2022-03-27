@@ -38,4 +38,4 @@ class Automata {
     int cancel();
     void cook();
     int finish();
- };
+};
